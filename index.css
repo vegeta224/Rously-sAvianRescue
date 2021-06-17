@@ -1,0 +1,41 @@
+nav {
+    border-bottom: 5px solid #000;
+    border-top: 5px solid #000;
+    text-align: center;
+}
+
+nav, header {
+    background-color: rgb(255, 197, 91);
+}
+
+.navpictures {
+    height: 100px;
+    width: 100px;
+}
+
+.logopicture {
+    height: 150px;
+    width: 175px;
+}
+
+header {
+    text-align: center;
+}
+
+main, footer {
+    background-color: lightblue;
+}
+
+.rescuepictures {
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    margin: 0;
+    margin-top: -35px;
+}
+
+main {
+    margin-top: -30px;
+}
