@@ -2,10 +2,15 @@ nav {
     border-bottom: 5px solid #000;
     border-top: 5px solid #000;
     text-align: center;
+    padding-bottom: 150px;
 }
 
 nav, header {
     background-color: rgb(255, 197, 91);
+}
+
+header {
+    padding-top: 20px;
 }
 
 .navpictures {
@@ -34,8 +39,35 @@ main, footer {
 body {
     margin: 0;
     margin-top: -35px;
+    background-color: lightblue;
 }
 
-main {
-    margin-top: -30px;
+footer {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+
+h3 {
+    font-size: 26px;
 }
