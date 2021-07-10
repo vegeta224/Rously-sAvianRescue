@@ -46,6 +46,9 @@ footer {
     text-align: center;
     padding-top: 30px;
     border-top: 1px solid black;
+    font-size: 30px;
+    color: darkblue;
+    font-weight: bold;
 }
 
 ul {
@@ -67,7 +70,31 @@ h2 {
     font-size: 28px;
 }
 
-
 h3 {
     font-size: 26px;
+}
+
+main {
+    padding: 20px 40px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    font-size: 30px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:current {
+    color: #fff;
 }
