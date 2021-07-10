@@ -23,7 +23,7 @@ header {
     width: 175px;
 }
 
-header {
+header, h1, h2, h3 {
     text-align: center;
 }
 
@@ -78,10 +78,6 @@ main {
     padding: 20px 40px;
 }
 
-h1, h2, h3 {
-    text-align: center;
-}
-
 a {
     text-decoration: none;
     color: #000;
@@ -93,8 +89,4 @@ a:hover {
 
 a:visited {
     color: purple;
-}
-
-a:current {
-    color: #fff;
 }
