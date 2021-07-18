@@ -75,6 +75,10 @@ h3 {
     font-size: 26px;
 }
 
+h4 {
+    font-size: 24px;
+}
+
 main {
     padding: 20px 40px;
 }
@@ -96,6 +100,18 @@ a:visited {
     border-collapse: border;
     width: 80%;
     background-color: #fff;
+}
+
+.tourtable {
+    width: 75%;
+}
+
+.contacttable {
+    width: 40%;
+}
+
+.homepagetable {
+    width: 80%;
 }
 
 td {
