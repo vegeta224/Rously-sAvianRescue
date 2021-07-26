@@ -62,11 +62,17 @@
                 <label for='age'>How old are you?</label><input id='age' name='age' required><br>
                 <label for='position'>Do you prefer volunteering or working for pay?</label>
                 <select name='position' id='position' required>
-                    <option>Please select your choice</option>
+                    <option value=''>Please select your choice</option>
                     <option value='work'>Work for pay</option>
                     <option value='volunteer'>Volunteer</option>
                 </select><br>
-                <label for='experience'>Do you have experience with animal care?</label><input type='radio' id='experienceyes' name='experienceyes' value='yes' /><label for='yes' id='yes' class='yes'>Yes</label><input type='radio' id='experienceno' name='experienceno' value='no' /><label for='no' class='no' id='no'>No</label><br>
+                <label for='experienceyes'>Do you have experience with animal care?</label>
+                  <input type='radio' id='experienceyes' name='experienceyes' value='yes' />
+                  <label for='yes' id='yes' class='yes'>Yes</label>
+                  <!-- <p class='yes'>Yes</p> -->
+                  <input type='radio' id='experienceno' name='experienceno' value='no' />
+                  <!-- <p class='no'>No</p><br> -->
+                  <label for='no' class='no' id='no'>No</label><br>
                 <label for='reason'>Why would you like to work with us?</label><textarea id ='reason' required></textarea><br>
                 <div class='buttondiv'>
                   <button type='submit'>Submit</button>
