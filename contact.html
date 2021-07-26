@@ -46,6 +46,34 @@
         <p>
           Or, you can call us at (555) 123-4567 for emergency situations.
         </p>
+
+        <p>
+            If you are interested in working with our rescue, fill out the form below.
+        </p>
+        <!--Action specifies where user info will be sent to in post method-->
+        <form action=”cf_response_page.php” method=”post”></form>
+            <fieldset>
+                <!--Labels the purpose of the form-->
+                <legend>
+                    Work With Us
+                </legend>
+                <label for='name'>Name:</label><input id='name' name='name' required></input><br>
+                <label for='number'>Phone Number:</label><input id='number' name='number' required></input><br>
+                <label for='age'>How old are you?</label><input id='age' name='age' required></input><br>
+                <label for='position'>Do you prefer volunteering or working for pay?</label>
+                <select name='position' id='position' required>
+                    <option value='work'>Work for pay</option>
+                    <option value='volunteer'>Volunteer</option>
+                </select><br>
+                <label for='experience'>Do you have experience with animal care?</label><input type='radio' id='yes' name='experience' value='yes' /><label for='yes' class='yes'>Yes</label><input type='radio' id='no' name='experience' value='no' /><label for='no' class='no'>No</label><br>
+                <label for='reason'>Why would you like to work with us?</label><textarea required></textarea><br>
+                <div class='buttondiv'>
+                  <button type='submit'>Submit</button>
+                </div>
+            </fieldset>
+
+        </form>
+
     </main>
 
     <!--footer space used for contact info -->

@@ -122,3 +122,19 @@ td {
 th {
     background-color: red;
 }
+
+input, select, .yes, .no, textarea {
+    float: right;
+}
+
+fieldset {
+    
+    width: 50%;
+}
+
+form {
+    text-align: center;
+}
+.buttondiv {
+    text-align: center;
+}
